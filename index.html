@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nimish Rathi — DevOps Engineer</title>
+  <meta name="description" content="Nimish Rathi — DevOps Engineer specializing in Kubernetes, AWS, CI/CD automation, and AI-augmented operations." />
+
+  <meta property="og:title" content="Nimish Rathi — DevOps Engineer" />
+  <meta property="og:description" content="DevOps Engineer specializing in Kubernetes, AWS, CI/CD automation, and AI-augmented operations." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Nimish Rathi — DevOps Engineer" />
+  <meta name="twitter:description" content="DevOps Engineer specializing in Kubernetes, AWS, CI/CD automation, and AI-augmented operations." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__brand">NR<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#certifications" class="nav__link">Certifications</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Hi, I'm</p>
+        <h1 class="hero__name">Nimish Rathi</h1>
+        <p class="hero__title">DevOps Engineer <span class="hero__dot">·</span> Cloud &amp; Automation <span class="hero__dot">·</span> AI-Augmented Ops</p>
+        <p class="hero__tagline">
+          I build and operate the infrastructure behind reliable software delivery — deploying to
+          Kubernetes, automating CI/CD pipelines, and keeping production systems observable end-to-end.
+          I bring AI tools like Claude, n8n, and GitHub Copilot into that workflow to automate the
+          busywork, so deployments ship faster and incidents get resolved quicker.
+        </p>
+        <div class="hero__stack">
+          <span class="tag">1 Yr Experience</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">AWS</span>
+          <span class="tag">CI/CD Automation</span>
+        </div>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="assets/Nimish_Rathi_Resume.docx" class="btn btn--ghost" download>Download Resume</a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+        <div class="hero__meta">
+          <span>📍 Bangalore, India</span>
+          <span>✉️ <a href="mailto:nimish.rathi2025@gmail.com">nimish.rathi2025@gmail.com</a></span>
+          <span>📞 +91 89627 41232</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">01</span> About</h2>
+        <p class="about__text">
+          I'm a DevOps Engineer focused on building reliable infrastructure and automating everything
+          that doesn't need a human in the loop. My core stack is Kubernetes, AWS, Linux, and CI/CD
+          pipelines with Jenkins and GitHub Actions — deploying containerized workloads, managing
+          infrastructure with Terraform, and keeping production systems observable with Prometheus,
+          Grafana, and Splunk. I currently operate Cox Communications' enterprise middleware estate at
+          Capgemini, and I'm extending that into AI-augmented DevOps — using Claude, n8n, and GitHub
+          Copilot to automate ticketing and troubleshooting workflows. I hold an AWS Solutions Architect
+          – Associate certification and a Red Hat Certified System Administrator (RHCSA) credential, and
+          solve LeetCode problems regularly to keep my core engineering fundamentals sharp.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">02</span> Skills</h2>
+        <div class="skills__grid">
+
+          <div class="skill-card">
+            <h3>Cloud &amp; Infrastructure</h3>
+            <div class="tags">
+              <span class="tag">AWS (EC2, S3, IAM, VPC, RDS, Lambda, CloudWatch)</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">Linux (RHEL) Administration</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Containers &amp; Orchestration</h3>
+            <div class="tags">
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Helm</span>
+              <span class="tag">ArgoCD (GitOps)</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>CI/CD &amp; Automation</h3>
+            <div class="tags">
+              <span class="tag">Jenkins (Declarative &amp; Scripted Groovy)</span>
+              <span class="tag">GitHub Actions</span>
+              <span class="tag">GitLab CI</span>
+              <span class="tag">Git</span>
+              <span class="tag">AWX / Ansible</span>
+              <span class="tag">Rundeck</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Messaging &amp; Integration</h3>
+            <div class="tags">
+              <span class="tag">Apache ActiveMQ Artemis</span>
+              <span class="tag">Payment Broker</span>
+              <span class="tag">Order Broker</span>
+              <span class="tag">Linux-hosted Routers</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Monitoring &amp; Observability</h3>
+            <div class="tags">
+              <span class="tag">Prometheus</span>
+              <span class="tag">Grafana</span>
+              <span class="tag">BigPanda</span>
+              <span class="tag">Splunk</span>
+              <span class="tag">New Relic</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Web / App Servers</h3>
+            <div class="tags">
+              <span class="tag">Nginx (Reverse Proxy / LB)</span>
+              <span class="tag">SAP NetWeaver</span>
+              <span class="tag">Java Middleware</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Security &amp; Access</h3>
+            <div class="tags">
+              <span class="tag">SSL/TLS Certificate Lifecycle</span>
+              <span class="tag">PAM (Privileged Access Mgmt)</span>
+            </div>
+          </div>
+
+          <div class="skill-card skill-card--highlight">
+            <h3>AI Tooling <span class="badge">Active Use</span></h3>
+            <div class="tags">
+              <span class="tag">Claude (Anthropic)</span>
+              <span class="tag">n8n Workflow Automation</span>
+              <span class="tag">GitHub Copilot</span>
+            </div>
+          </div>
+
+          <div class="skill-card skill-card--highlight">
+            <h3>AI / ML <span class="badge badge--learning">Learning</span></h3>
+            <div class="tags">
+              <span class="tag">Python for AI Scripting</span>
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">LLM APIs</span>
+              <span class="tag">RAG Patterns</span>
+              <span class="tag">Vector DBs (ChromaDB)</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Languages &amp; Scripting</h3>
+            <div class="tags">
+              <span class="tag">Groovy</span>
+              <span class="tag">Java</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Problem Solving</h3>
+            <div class="tags">
+              <span class="tag">Data Structures &amp; Algorithms</span>
+              <span class="tag">LeetCode</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">03</span> Experience</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__head">
+                <h3>DevOps Engineer</h3>
+                <span class="timeline__date">May 2025 – Present</span>
+              </div>
+              <p class="timeline__sub">Capgemini · Client: Cox Communications · Bangalore, India</p>
+              <ul class="timeline__list">
+                <li>Operate and maintain Cox Communications' enterprise middleware estate covering SAP servers, Java application servers, and messaging brokers (payment and order brokers).</li>
+                <li>Deploy and operate containerized workloads on Kubernetes; troubleshoot pods, services, deployments, and ingress at CKA-level proficiency.</li>
+                <li>Build and maintain Jenkins CI/CD pipelines using Groovy scripts integrated with Git/GitHub for automated build, test, and deployment workflows.</li>
+                <li>Administer Linux (RHEL) servers — OS patching, package management, performance tuning, and monthly scheduled file deployments across the middleware platform.</li>
+                <li>Manage SSL/TLS certificate renewal lifecycle across web servers and middleware components, preventing outages from certificate expiry.</li>
+                <li>Operate and tune Apache ActiveMQ Artemis queues; investigate and resolve message backlog, broker connectivity, and routing issues on Linux-hosted routers.</li>
+                <li>Monitor production environments using BigPanda, Splunk, and New Relic; triage and resolve alerts within defined SLAs.</li>
+                <li>Execute SAP patching activities using AWX/Ansible templates and nsquery; access target servers securely via PAM.</li>
+                <li>Use Rundeck to schedule and orchestrate recurring operational jobs (backups, log rotation, scheduled deployments).</li>
+                <li>Resolve incident and service-request tickets in JIRA; document root-cause analyses and maintain runbooks.</li>
+                <li>Configure Nginx as reverse proxy and load balancer for internal applications.</li>
+                <li>Build automation scripts and workflows using Claude, n8n, and GitHub Copilot — including a production-bound n8n pipeline that auto-creates JIRA tickets from password-expiration alert emails.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">04</span> Projects</h2>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__head">
+              <h3>Password &amp; Cert Expiry → JIRA Ticket Automation</h3>
+              <span class="pill">Workplace Project · Cox Communications</span>
+            </div>
+            <p>
+              n8n automation pipeline that eliminates manual JIRA ticket creation for password-expiration
+              and SSL/TLS certificate-expiry alerts, extending a single workflow to cover both alert types.
+            </p>
+            <ul class="project-card__list">
+              <li>Polls a shared mailbox (IMAP / Microsoft Graph API) for password-expiration and certificate-expiry warning emails; regex/JSON parser nodes extract the relevant fields (user profile, expiry date, or certificate/server details) from each alert type.</li>
+              <li>Calls the JIRA REST API to auto-create a task on the OMGOPS board, pre-populated with the relevant details and source email — no manual ticket creation required.</li>
+              <li>Fully automated, zero-touch, and runbook-driven; directly reduces manual overhead in the SSL/TLS certificate renewal lifecycle work.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">n8n</span>
+              <span class="tag">IMAP / Microsoft Graph API</span>
+              <span class="tag">JIRA REST API</span>
+              <span class="tag">SSL/TLS Cert Monitoring</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__head">
+              <h3>Jenkins Pipeline for Automated Thales VM Server Upgrades</h3>
+              <span class="pill">Workplace Project · Cox Communications</span>
+            </div>
+            <p>
+              Jenkins pipeline that automates version upgrades of Thales servers across VMs, replacing a
+              fully manual, SSH-per-node upgrade process with an on-demand pipeline gated by a single
+              human approval step.
+            </p>
+            <ul class="project-card__list">
+              <li>Previously: SSH into each node individually, manually run <code>ks_upgrade.sh</code> per version, answer its interactive yes/no prompts, reboot, and repeatedly check when the node comes back — repeated across every node and version.</li>
+              <li>Pipeline now SSHes into each node and drives <code>ks_upgrade.sh</code> across multiple versions in sequence, on demand, with no manual command typing.</li>
+              <li>Automated health check polls the node after reboot instead of a human manually checking availability.</li>
+              <li>Manual approval gate (Jenkins input step): the engineer's only remaining task is to click "Proceed" after verifying node health in the console, before the pipeline moves to the next node/version.</li>
+              <li>Shrinks hours of repetitive, error-prone manual typing across nodes and versions to a few clicks, with consistent steps every time and no risk of a mistyped command or forgotten reboot.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Jenkins</span>
+              <span class="tag">Groovy</span>
+              <span class="tag">SSH</span>
+              <span class="tag">Bash Scripting</span>
+              <span class="tag">Thales VM Upgrades</span>
+              <span class="tag">CI/CD</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__head">
+              <h3>Two-Tier WordPress Deployment on Kubernetes</h3>
+              <span class="pill">Personal Project</span>
+            </div>
+            <p>
+              Deployed a two-tier WordPress application (app tier + MySQL database tier) on a local
+              Kubernetes cluster, replicating a production-style architecture end-to-end.
+            </p>
+            <ul class="project-card__list">
+              <li>Separate WordPress and MySQL Deployments, each with its own Service, to isolate the app tier from the database tier.</li>
+              <li>Persistent storage configured via PersistentVolume/PersistentVolumeClaim so MySQL data and WordPress files survive pod restarts.</li>
+              <li>DB credentials and app config managed through Kubernetes Secrets and ConfigMaps instead of being hardcoded.</li>
+              <li>Networking set up with ClusterIP for internal DB access and NodePort/Ingress to expose WordPress externally.</li>
+              <li>Cluster provisioned locally using Kind (Kubernetes in Docker).</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Kind</span>
+              <span class="tag">WordPress</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Secrets / ConfigMaps</span>
+              <span class="tag">PV / PVC</span>
+              <span class="tag">Ingress</span>
+            </div>
+            <a class="project-card__link" href="https://github.com/NimishRathi/wordpress-deployment" target="_blank" rel="noopener">View Repository →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__head">
+              <h3>CI/CD Pipeline with Jenkins, Docker &amp; AWS</h3>
+              <span class="pill">Personal Project</span>
+            </div>
+            <p>
+              Built an end-to-end CI/CD pipeline that takes a code push all the way to a running
+              deployment on AWS, with no manual steps in between.
+            </p>
+            <ul class="project-card__list">
+              <li>A GitHub webhook triggers a Jenkins pipeline automatically on every push, kicking off build and deployment.</li>
+              <li>Jenkins builds a Docker image from the application code and pushes it to a container registry.</li>
+              <li>Pipeline deploys the updated image to AWS, giving a fully automated path from commit to running infrastructure.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Jenkins</span>
+              <span class="tag">Docker</span>
+              <span class="tag">AWS</span>
+              <span class="tag">GitHub Webhooks</span>
+              <span class="tag">CI/CD</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__head">
+              <h3>Dockerized Two-Tier Flask Application with MySQL</h3>
+              <span class="pill">Personal Project</span>
+            </div>
+            <p>
+              Containerized a two-tier Flask application (app tier + MySQL database tier) using Docker,
+              with both services networked and orchestrated through Docker Compose.
+            </p>
+            <ul class="project-card__list">
+              <li>Flask app container and MySQL container run as separate services, linked over a shared Docker Compose network.</li>
+              <li>Single command (<code>docker-compose up</code>) brings up the full two-tier stack, mirroring how the app would run in production.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Flask</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Docker Compose</span>
+            </div>
+            <a class="project-card__link" href="https://github.com/NimishRathi/Dockerized-Two-Tier-Flask-Application-with-MySQL" target="_blank" rel="noopener">View Repository →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section" id="certifications">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">05</span> Certifications</h2>
+        <div class="certs__grid">
+          <div class="cert-card">
+            <div class="cert-card__icon">☁️</div>
+            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <p>Amazon Web Services</p>
+            <!-- TODO: replace # with your Credly/AWS verification badge URL -->
+            <a class="cert-card__link" href="#" target="_blank" rel="noopener">Verify credential →</a>
+          </div>
+          <div class="cert-card">
+            <div class="cert-card__icon">🐧</div>
+            <h3>Red Hat Certified System Administrator (RHCSA)</h3>
+            <p>Red Hat</p>
+            <!-- TODO: replace # with your Red Hat verification badge URL -->
+            <a class="cert-card__link" href="#" target="_blank" rel="noopener">Verify credential →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section--alt" id="education">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">06</span> Education</h2>
+        <div class="edu__list">
+          <div class="edu-card">
+            <h3>B.Tech in Information Technology</h3>
+            <p class="edu-card__sub">Technocrats Institute of Technology, Bhopal</p>
+            <p class="edu-card__meta">2021 – 2025 · CGPA: 8.5 / 10</p>
+          </div>
+          <div class="edu-card">
+            <h3>Class XII (Senior Secondary)</h3>
+            <p class="edu-card__sub">Oxford Higher Secondary School</p>
+            <p class="edu-card__meta">92%</p>
+          </div>
+          <div class="edu-card">
+            <h3>Class X (Secondary)</h3>
+            <p class="edu-card__sub">VJC Convent School</p>
+            <p class="edu-card__meta">91%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="section__inner">
+        <h2 class="section__heading"><span class="section__num">07</span> Contact</h2>
+        <p class="contact__lead">Open to DevOps, Platform Engineering, and AI-augmented Ops opportunities — let's talk.</p>
+        <div class="contact__grid">
+          <a class="contact__item" href="mailto:nimish.rathi2025@gmail.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">nimish.rathi2025@gmail.com</span>
+          </a>
+          <a class="contact__item" href="tel:+918962741232">
+            <span class="contact__label">Phone</span>
+            <span class="contact__value">+91 89627 41232</span>
+          </a>
+          <a class="contact__item" href="https://github.com/NimishRathi" id="githubLink" target="_blank" rel="noopener">
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">github.com/NimishRathi</span>
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/in/nimish-rathi-593125239" id="linkedinLink" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/nimish-rathi</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nimish Rathi. Built with HTML, CSS &amp; JS — hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
